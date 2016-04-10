@@ -1,7 +1,3 @@
-## 收集各个网站的URI
-###A站 [http://www.acfun.tv](http://www.acfun.tv "认真你就输了！")
-
-
 ###B站 [http://www.bilibili.com](http://www.bilibili.com "哔哩哔哩弹幕网站")
 #### 视频播放页面（http://www.bilibili.com/video/av4303756/）
 * 获取cid<br>http://www.bilibili.com/video/av4303756/<br><script type='text/javascript'>EmbedPlayer('player', "http://static.hdslb.com/play.swf", "cid=6962886&aid=4303756");</script>
@@ -28,3 +24,8 @@
 * 他的粉丝<br>http://space.bilibili.com/ajax/friend/GetFansList?mid=6348263&page=1
 * 订阅<br>http://space.bilibili.com/ajax/Bangumi/getList?mid=6348263
 * 兴趣圈<br>http://www.im9.com/api/query.my.community.list.do?mid=6348263&data_type=2&page_size=12&page_no=1&sign=b334b0f943e99dd535123165f06dc6ca&space_callback=space_callback&type=jsonp&ts=1460273788
+
+#### 首页
+* 排行<br>http://www.bilibili.com/index/ranking-3day.json
+* 推广<br>http://www.bilibili.com/index/promote.json
+* 新番列表<br>http://www.bilibili.com/api_proxy?app=bangumi&action=timeline_v2
